@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.ConsoleApp.HelloWorld", "ElsaQuickstarts.ConsoleApp.HelloWorld\ElsaQuickstarts.ConsoleApp.HelloWorld.csproj", "{D657AE25-2EC6-4E36-A811-482AA2F53089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.ConsoleApp.HelloWorld", "src\ElsaQuickstarts.ConsoleApp.HelloWorld\ElsaQuickstarts.ConsoleApp.HelloWorld.csproj", "{D657AE25-2EC6-4E36-A811-482AA2F53089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsaQuickstarts.WebApp.HelloWorld", "ElsaQuickstarts.WebApp.HelloWorld\ElsaQuickstarts.WebApp.HelloWorld.csproj", "{580AE1E0-F3E8-406B-AA8A-B7033AC4152F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.WebApp.HelloWorld", "src\ElsaQuickstarts.WebApp.HelloWorld\ElsaQuickstarts.WebApp.HelloWorld.csproj", "{580AE1E0-F3E8-406B-AA8A-B7033AC4152F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsaQuickstarts.Server.ApiEndpoints", "ElsaQuickstarts.Server.ApiEndpoints\ElsaQuickstarts.Server.ApiEndpoints.csproj", "{440169BE-E970-4057-BA02-624EA8895C2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.Server.ApiEndpoints", "src\ElsaQuickstarts.Server.ApiEndpoints\ElsaQuickstarts.Server.ApiEndpoints.csproj", "{440169BE-E970-4057-BA02-624EA8895C2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsaQuickstarts.Server.Dashboard", "ElsaQuickstarts.Server.Dashboard\ElsaQuickstarts.Server.Dashboard.csproj", "{EC5AC777-8F67-4EB5-80DE-8511087E297F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.Server.Dashboard", "src\ElsaQuickstarts.Server.Dashboard\ElsaQuickstarts.Server.Dashboard.csproj", "{EC5AC777-8F67-4EB5-80DE-8511087E297F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsaQuickstarts.Server.DashboardAndServer", "ElsaQuickstarts.Server.DashboardAndServer\ElsaQuickstarts.Server.DashboardAndServer.csproj", "{4A4BB916-33B4-4300-BBED-7E83276BE56A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsaQuickstarts.Server.DashboardAndServer", "src\ElsaQuickstarts.Server.DashboardAndServer\ElsaQuickstarts.Server.DashboardAndServer.csproj", "{4A4BB916-33B4-4300-BBED-7E83276BE56A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elsa.Samples.UserRegistration.Web", "src\Elsa.Samples.UserRegistration.Web\Elsa.Samples.UserRegistration.Web.csproj", "{CF524DCB-6A25-4568-9793-38618B23CF1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4A4BB916-33B4-4300-BBED-7E83276BE56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A4BB916-33B4-4300-BBED-7E83276BE56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A4BB916-33B4-4300-BBED-7E83276BE56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF524DCB-6A25-4568-9793-38618B23CF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF524DCB-6A25-4568-9793-38618B23CF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF524DCB-6A25-4568-9793-38618B23CF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF524DCB-6A25-4568-9793-38618B23CF1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
